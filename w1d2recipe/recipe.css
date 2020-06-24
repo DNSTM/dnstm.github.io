@@ -1,0 +1,102 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(images/silverware.jpg);
+	font-family: Georgia, Garamond, sans-serif;
+	font-size: 100%;
+    line-height: 1.4;
+    font-size: 11pt;
+    background-repeat: repeat;
+    color: #404040;
+    letter-spacing: 0.5px;
+}
+h1{
+	font-size: 22pt;
+    font-weight: bold;
+    text-align: center;
+}
+h1, h2{
+    color: #A4A400;  
+    font-family: 'Lucida Sans Unicode', Helvetica, Arial, sans-serif;
+    font-size: 18pt;
+    font-weight: 400;
+    letter-spacing: 0.25em;
+}
+h1 span, h2 span{
+    position: relative;
+	background-color: #F0F0F0;
+    display: inline-block;
+}
+h1 span::after, h2 span::after{
+    background: #A4A400;
+	content: " ";
+    right: 0;
+    bottom: -1px;
+    height: 2px;
+	position: absolute;
+    left: 0;    
+}
+.container{
+    width: 100%;
+    box-shadow: 1px 1px 10px 1px rgba(0,0,0,.4);
+	max-width: 1024px;
+    margin: 0 auto;    
+    margin-top: 30px;
+	margin-bottom: 30px;
+	background-color: #ffffff;    
+}
+footer{
+    padding-top: 30px;
+    margin: 0 30px;
+}
+
+h1{
+  font-weight: 700;  
+}
+a{
+    color: #A4A400;
+}
+li{
+    margin-bottom: 10px;
+}
+.links a{
+    display: block;
+}
+pre{
+    text-align: left;
+}
+.pt30{
+    padding-top: 30px;
+}
+.right{
+    float: left;
+}
+.clr{
+    height: 0;
+    clear: both;
+}
+section{
+    padding: 20px;
+    margin: 0 30px;
+    border-bottom: 2px solid #ccc;
+}
+.info{
+    max-width: 150px;
+    margin-top: 15px;
+}
+.linethrough{
+    text-decoration: line-through;
+}
+.comments .comment-wrap{
+    background-color: #FFFFA8;
+    margin-bottom: 15px;
+    font-style: italic;
+    margin-left: 2em;
+}
+em{
+    font-weight: 700;
+}
+ul li{
+    list-style-type:pointer;
+}
+
