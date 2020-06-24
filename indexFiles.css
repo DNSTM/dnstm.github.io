@@ -14,4 +14,8 @@ div {
   padding-left: 100px;
 }
 
+a{
+	color: green;
+    text-decoration: none;
+}
 
