@@ -1,7 +1,8 @@
 body {
   font-family: sans-serif;
   font-family: 'Times New Roman', Times, serif;
-  background-color: #BDBDBD;
+  background: url(w1d2recipe/images/IhBogd.jpeg) no-repeat center top;
+  background-color: #F6E3CE;
 }
 
 img {
@@ -10,12 +11,11 @@ img {
 
 div {
   padding-top: 30px;
-  padding-right: 60px;
-  padding-left: 100px;
+  padding-right: 0px;
+  padding-left: 60px;
 }
 
 a{
 	color: green;
     text-decoration: none;
 }
-
