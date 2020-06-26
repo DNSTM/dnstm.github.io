@@ -131,7 +131,7 @@ function productOfAllElements (myArray){
 /***************************************************************************************************/
 /***************************************************************************************************/
 
-/*Test section*/
+/*********************    Test section using console  *********************  */
 
 console.log ("******************** 1. Max value of two values ******************** ");
 console.log ("Expected output of maxOfTwo (10,20) is 20 " + myFunctionTest (20, maxOfTwo(10,20)));
@@ -168,3 +168,61 @@ console.log ("Expected output of array ([1,3,5,3,3]) is 135 " + myFunctionTest (
 /***************************************************************************************************/
 /***************************************************************************************************/
 /***************************************************************************************************/
+
+/*********************    Test section using console.assert()  *********************  */
+
+function testMaxOfTwo() {
+    console.assert(maxOfTwo(10,20) === 20, "Output should be 20");
+}
+testMaxOfTwo();
+
+function testMaxOfThree(){
+	console.assert(maxOfThree(10,20,30) === 30 , "Output should be 30")	;
+}
+testMaxOfThree();
+
+function testIfVowel(){
+	console.assert(isVowel('a') === true, "Output should be true");
+}
+testIfVowel();
+
+function testSumValue(){
+	console.assert(sum([10,20,30]) === 60, "Output should be 60");
+}
+testSumValue();
+
+function testMultiplyValue(){
+	console.assert(multiply([1,2,3,4]) === 24, "Output should be 24");
+}
+testMultiplyValue();
+
+function testReverseValue(){
+	console.assert(reverse("jag testar") === "ratset gaj", "Output should be 'ratset gaj'");
+}
+testReverseValue();
+
+function testLongestWord(){
+	console.assert(findLongestWord(["this","is","JavaScript","yes"]) === "JavaScript", "Output should be 'JavaScript'");
+}
+testLongestWord();
+
+function testArrayWordsValues(){
+	console.assert(myFunctionTestForArray (["this","JavaScript"], filterLongWords(["this","is","JavaScript","yes"], 3)) === "TEST SUCCEEDED", "Output should be ['this,JavaScript']");
+}
+testArrayWordsValues();
+
+function testMultiplyBy10(){
+	console.assert(myFunctionTestForArray ([10,30,50,30,30], multiplyBy10([1,3,5,3,3])) === "TEST SUCCEEDED", "Output should be [10,30,50,30,30]");
+}
+testMultiplyBy10();
+
+function testEqualWith3(){
+	console.assert(myFunctionTestForArray ([3,3,3], arrayEqual3([1,3,5,3,3])) === "TEST SUCCEEDED", "Output should be [3,3,3]");
+}
+testEqualWith3();
+
+function testProductsOfAllElements(){
+	console.assert(myFunctionTest (135, productOfAllElements([1,3,5,3,3])) === "TEST SUCCEEDED", "Output should be 135");
+}
+testProductsOfAllElements();
+
