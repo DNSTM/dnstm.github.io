@@ -26,7 +26,6 @@ img {
 
 .item2{
 	grid-area:right;	
-	border-right: solid 1px gray;
 	width:1050px;
 	
 }
