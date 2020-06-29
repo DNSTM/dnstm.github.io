@@ -15,23 +15,28 @@ img {
 	grid-template-areas:
 		'left right right1 right2';
 	grid-gap:10px;
+	margin-left:30px;
 }
 
 .item1{
 	grid-area:left;	
 	border-right: solid 1px gray;
+	width:250px;
 }
 
 .item2{
 	grid-area:right;	
 	border-right: solid 1px gray;
+	width:250px;
 }
 .item3{
 	grid-area:right1;	
 	border-right: solid 1px gray;
+	width:250px;
 }
 .item4{
 	grid-area:right2;	
+	width:250px;
 }
 
 a{
