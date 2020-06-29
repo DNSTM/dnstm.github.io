@@ -19,7 +19,6 @@ img {
 
 .item1{
 	grid-area:left;	
-	border-right: solid 1px gray;
 	width:250px;
 }
 
