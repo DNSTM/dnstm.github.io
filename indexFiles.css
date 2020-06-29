@@ -6,14 +6,34 @@ body {
 }
 
 img {
+	margin-top:20px;
   border-radius: 50%;
 }
 
-div {
-  padding-top: 30px;
-  padding-right: 0px;
-  padding-left: 60px;
+.container{
+	display:grid;
+	grid-template-areas:
+		'left right right1 right2';
+	grid-gap:10px;
 }
+
+.item1{
+	grid-area:left;	
+	border-right: solid 1px gray;
+}
+
+.item2{
+	grid-area:right;	
+	border-right: solid 1px gray;
+}
+.item3{
+	grid-area:right1;	
+	border-right: solid 1px gray;
+}
+.item4{
+	grid-area:right2;	
+}
+
 
 a{
 	color: green;
