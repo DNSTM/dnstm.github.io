@@ -2,7 +2,7 @@ body {
   font-family: sans-serif;
   font-family: 'Times New Roman', Times, serif;
   background: url(w1d2recipe/images/IhBogd.jpeg) no-repeat center top;
-  background-color: #F6E3CE;
+  background-color: #F6E3CE; 
 }
 
 img {
@@ -33,7 +33,6 @@ img {
 .item4{
 	grid-area:right2;	
 }
-
 
 a{
 	color: green;
