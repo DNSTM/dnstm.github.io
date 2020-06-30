@@ -40,7 +40,7 @@ input[type=password] {
 	padding-top:10px;
 }
 input[type=submit]{
-	width:7%;
+	width:80px;
 	background-color:#2E64FE;
 	color:white;
 	padding: 14px 20px;
