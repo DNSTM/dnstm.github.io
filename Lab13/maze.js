@@ -37,8 +37,4 @@ $(document).ready(function (){
 		}
 	}
 	
-	function running(){
-		alert("asfas");
-	}
-	
 });
