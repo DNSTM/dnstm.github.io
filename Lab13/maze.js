@@ -1,3 +1,4 @@
+"use strict";
 $(document).ready(function (){
 	let isStarted = false;
 	let isOver = false;
