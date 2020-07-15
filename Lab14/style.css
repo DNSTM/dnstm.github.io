@@ -1,0 +1,27 @@
+.container{
+			position:absolute;
+			left:50px;
+			right:50px;
+			bottom:10px;
+			top:10px;
+			border:none;
+			display:inline-flex;
+		}
+		.column1{
+			height:100px;
+			width:30%;
+			padding:10px;
+		}
+		.column2{
+			height:100px;
+			width:30%;
+			padding:10px;
+		}
+		.column3{
+			height:100px;
+			width:30%;
+			padding:10px;
+		}
+		span{
+			margin-left:20px;
+		}
